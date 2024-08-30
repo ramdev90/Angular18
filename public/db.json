@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "name": "Ramdevbhai Rathod",
+      "email": "ramdevrathod90@gmail.com",
+      "address": "Bavla, Ahmedabad",
+      "city": "Bavla",
+      "state": "Choose...",
+      "zip": "382220",
+      "agree": true,
+      "id": "46dd"
+    },
+    {
+      "name": "Ramdevbhai Rathod11132",
+      "email": "ramdevrathod90@gmail.com",
+      "address": "Bavla, Ahmedabad",
+      "city": "Bavla",
+      "state": "Choose...",
+      "zip": "382220",
+      "agree": true,
+      "id": "f259"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

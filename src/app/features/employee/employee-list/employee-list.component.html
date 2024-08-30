@@ -1,0 +1,31 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">name</th>
+      <th scope="col">email</th>
+      <th scope="col">address</th>
+      <th scope="col">city</th>
+      <th scope="col">state</th>
+      <th scope="col">zip</th>
+      <th scope="col">agree</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let emp of employees">
+      <td>{{ emp?.id }}</td>
+      <td>{{ emp?.name }}</td>
+      <td>{{ emp?.email }}</td>
+      <td>{{ emp?.address }}</td>
+      <td>{{ emp?.city }}</td>
+      <td>{{ emp?.state }}</td>
+      <td>{{ emp?.zip }}</td>
+      <td>{{ emp?.agree ? "Yes" : "No" }}</td>
+      <td>
+        <button class="btn btn-danger" (click)="onDelete(emp?.id)">X</button>
+        <button class="btn btn-primary" (click)="onEdit(emp?.id)">Edit</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
